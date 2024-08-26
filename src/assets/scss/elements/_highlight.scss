@@ -4,10 +4,15 @@
         justify-content: center;
         align-items: center; /* Opcional: para centrar verticalmente */
         .highlight-image {
-            max-width: 100%; /* La imagen no superará el ancho de su contenedor */
-            max-height: 100%; /* La imagen no superará la altura de su contenedor */
-            width: auto; /* Ajusta la anchura según el aspecto */
-            height: auto; /* Ajusta la altura según el aspecto */
+            max-width: 600px
+        }
+        @media (max-width: 600px) {
+            .highlight-image {
+                max-width: 100%; /* La imagen no superará el ancho de su contenedor */
+                max-height: 100%; /* La imagen no superará la altura de su contenedor */
+                width: auto; /* Ajusta la anchura según el aspecto */
+                height: auto; /* Ajusta la altura según el aspecto */
+            }
         }
     }
     .highlight-title{
