@@ -24,24 +24,8 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash", // Cambia a hash para evitar problemas con rutas en GitHub Pages
   routes,
-  scrollBehavior: (to, from, savedPosition) => {
-    let scrollTo = 0;
-
-    if (to.hash) {
-      scrollTo = to.hash;
-    } else if (savedPosition) {
-      scrollTo = savedPosition.y;
-    }
-
-    return goTo(scrollTo);
-  },
-});
-
-router.beforeEach((to, from, next) => {
-  document.title = to.meta.title;
-  next();
 });
 
 export default router;

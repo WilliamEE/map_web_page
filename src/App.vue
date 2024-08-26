@@ -81,9 +81,9 @@ export default {
       this.$vuetify.goTo(0);
     },
     handleClickOutside(event) {
-      if(!event.target.toString().includes('SVGPathElement')){
-        this.setId('esv')
-      }
+      // if(!event.target.toString().includes('SVGPathElement')){
+      //   this.setId('esv')
+      // }
     }
   },
 };

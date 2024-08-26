@@ -101,7 +101,6 @@
       this.setId(this.municipalities[index].abbreviation);
 
       const targetElement = document.getElementById('mun-image');
-      console.log(targetElement)  
       //Verificar que el elemento existe antes de intentar desplazar la pantalla
       if (targetElement) {
           // Desplazar la pantalla al elemento

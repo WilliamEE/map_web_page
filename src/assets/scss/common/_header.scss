@@ -8,12 +8,18 @@
   box-sizing: border-box;
 }
 
+.header-text,
+.header-image {
+  cursor: pointer; 
+}
+
 .header-text {
   padding-left: 5%;
   font-size: 44px;
   font-weight: bold;
   font-family: Lora;
   color: $pnud-color;
+  line-height: 42px
 }
 
 .header-image {
@@ -22,4 +28,25 @@
   width: auto;
   max-width: 100%;
   padding-right: 5%;
+}
+
+@media (max-width: 600px) {
+  .custom-header {
+    flex-direction: column; /* Cambia la dirección del flex para que los elementos se apilen verticalmente */
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Centra el texto */
+  }
+
+  .header-text {
+    padding-left: 0; /* Elimina el relleno a la izquierda para móviles */
+    font-size: 32px; /* Ajusta el tamaño de fuente para móviles si es necesario */
+    line-height: 36px; /* Ajusta el interlineado para móviles si es necesario */
+    margin-top: 10px; /* Añade margen superior para separación */
+  }
+
+  .header-image {
+    max-height: 100px; /* Ajusta la altura máxima de la imagen para móviles */
+    padding-right: 0; /* Elimina el relleno a la derecha para móviles */
+    margin-bottom: 10px; /* Añade margen inferior para separación */
+  }
 }

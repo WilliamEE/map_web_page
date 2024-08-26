@@ -3,7 +3,8 @@
         <v-col cols="12" :class="style1">
               <h1 class="highlight-municipality-title highlight-main-name" v-html="name"></h1>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" 
+          sm="4">
           <v-col cols="12 pb-4 pl-0">
           <v-card
             dark

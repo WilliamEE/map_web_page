@@ -1,6 +1,7 @@
 <template>
       <v-row class="custom-row" dense>
-        <v-col cols="4">
+        <v-col cols="12" 
+          sm="4">
           <v-card
             dark
             :class="getClass('highlight1')"
@@ -12,7 +13,8 @@
             <v-card-subtitle v-html="information.highlight1.value" class="highlight-value"></v-card-subtitle>
           </v-card>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" 
+          sm="4">
           <v-card
             :class="getClass('highlight-secondary')"
           >
@@ -23,7 +25,8 @@
             <v-card-subtitle v-html="information.highlight2.value" class="highlight-value-secondary"></v-card-subtitle>
           </v-card>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" 
+          sm="4">
           <v-card
             :class="getClass('highlight-secondary')"
           >

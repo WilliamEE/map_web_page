@@ -1,4 +1,9 @@
-.custom-row {
+.v-application--is-ltr .v-data-table__mobile-row__cell {
+    text-align: left !important;
+    font-size: 14px;
+  }
+  
+.custom-row {   
     .custom-table{
         background-color: $back-color;
         color: $tertiary-color;
@@ -22,6 +27,10 @@
         font-size: 16px;
         font-family: Roboto;
         color: $tertiary-color;
+        @media (max-width: 600px) {
+            font-size: 12px;
+            line-height: 16px;
+        }
     }
     .information-value, .information-value-secondary, .information-main-name{
         font-size: 36px;
@@ -29,7 +38,13 @@
         font-weight: 600;
         color: #ffffff !important;
         padding-bottom: 30px;
-
+    }
+    .information-value-secondary{
+        line-height: 38px;
+        @media (max-width: 600px) {
+            font-size: 30px;
+            padding-bottom: 0px;
+        }
     }
     .information-secondary{
         background-color: $back-color;

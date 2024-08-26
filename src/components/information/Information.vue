@@ -3,7 +3,8 @@
       <v-col cols="12" :class="style1">
             <h1 class="information-municipality-title information-main-name" v-html="title"></h1>
       </v-col>
-    <v-col cols="6">
+    <v-col cols="12" 
+          sm="6">
       <v-col cols="12 pb-4 pl-0">
         <v-card
           :class="style3"
@@ -68,7 +69,8 @@
         </v-card>
       </v-col>
     </v-col>
-    <v-col cols="6">
+    <v-col cols="12" 
+          sm="6">
       <v-col cols="12 pb-4 pl-0">
         <v-card
           :class="style3"
@@ -172,7 +174,7 @@ data() {
       category5Data: [], 
       category6Data: [], 
       headers: [
-        { text: 'Description', value: 'description' },
+        { text: 'Description', value: 'description', align: 'start' },
         { text: 'Value', value: 'value', align: 'end' },
       ],
     };
