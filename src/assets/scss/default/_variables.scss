@@ -1,0 +1,84 @@
+//===== Colors =====//
+$theme-color: #de1519;
+$body-color: #1d1d24;
+$heading-color: #de1519;
+$border-color: #b1b4c1;
+$white:#fff;
+$pnud-color: #1869B3;
+$secondary-color: #3C3C3C;
+$tertiary-color: #626262;
+$back-color: #F4F4F4;
+
+//Colores municipios
+$ah-color: #C31F34; /* RGB(195, 31, 52) */
+$ss-color: #269B47; /* RGB(38, 155, 71) */
+$ll-color: #8A5D3B; /* RGB(138, 93, 59) */
+$ch-color: #8BC63E; /* RGB(139, 198, 62) */
+$cs-color: #F36C26; /* RGB(243, 108, 38) */
+$cb-color: #EB1D2D; /* RGB(235, 29, 45) */
+$lp-color: #E01084; /* RGB(224, 16, 132) */
+$lu-color: #8E1837; /* RGB(142, 24, 55) */
+$us-color: #D1A029; /* RGB(209, 160, 41) */
+$sn-color: #FCB615; /* RGB(252, 182, 21) */
+$sa-color: #1869B3; /* RGB(24, 105, 179) */
+$sv-color: #48773D; /* RGB(72, 119, 61) */
+$sm-color: #1C3667; /* RGB(28, 54, 103) */
+$mz-color: #EF4128; /* RGB(239, 65, 40) */
+/*===============================
+    Font Family 
+=================================*/
+$body-font: 'Roboto', sans-serif;
+$heading-font: 'Roboto', sans-serif;
+$heading-montserrat: 'Roboto', sans-serif;
+// Heading Font List
+$font-1: 'Roboto', sans-serif;
+
+$fontList: $font-1;
+
+
+/*===============================
+    Color Variation 
+=================================*/
+$color-1:  $theme-color;
+$color-2:  #f4769a;
+$color-3:  #2f21b3;
+$color-4:  #8956e2;
+$colorList: $color-1, $color-2 ,$color-3 ,$color-4;
+
+//===== Line Height =====//
+$body-line-height: 1.714286;
+//==== Font size =====//
+$body-font-size: 14px;
+$h1: 64px;
+$h2: 54px;
+$h3: 24px;
+$h4: 20px;
+$h5: 18px;
+$h6: 16px;
+
+//===== Social Colors =====//
+$facebook : #3B5998;
+$twitter : #00ACEE;
+$google-plus : #DD4B39;
+$pinterest : #C8232C;
+$linkedin : #0E76A8;
+$flickr : #FF0084;
+$google : #dd4b39;
+$youtube : #cd201f;
+
+
+
+
+// Layouts
+$smlg-device: 'only screen and (max-width: 1264px)';
+
+$sm-layout:'only screen and (max-width: 767px)';
+$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1263px)';
+$laptop-device: 'only screen and (min-width: 1264px) and (max-width: 1903px)';
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+$extra-large: 'only screen and (min-width: 1920px)';
+/* container 450px*/
+$small-mobile: 'only screen and (max-width: 479px)';
+$large-mobile: 'only screen and (max-width: 599px)';
+/* container 300px*/

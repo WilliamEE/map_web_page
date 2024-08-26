@@ -1,0 +1,25 @@
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px;
+  padding-top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-text {
+  padding-left: 5%;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: Lora;
+  color: $pnud-color;
+}
+
+.header-image {
+  height: auto;
+  max-height: 115px; /* Puedes ajustar este valor según sea necesario */
+  width: auto;
+  max-width: 100%;
+  padding-right: 5%;
+}

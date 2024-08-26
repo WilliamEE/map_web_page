@@ -1,0 +1,147 @@
+.custom-row {
+    .custom-table{
+        background-color: $back-color;
+        color: $tertiary-color;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .information-image-col{
+        text-align: center;
+        .information-image{
+            display: inline-block;
+            max-width: 700px;
+        }
+    }
+    .information-title{
+        font-size: 24px;
+        font-family: Roboto;
+        padding-bottom: 40px;
+        color: $pnud-color;
+    }
+    .simple-p{
+        font-size: 16px;
+        font-family: Roboto;
+        color: $tertiary-color;
+    }
+    .information-value, .information-value-secondary, .information-main-name{
+        font-size: 36px;
+        font-family: Sora;
+        font-weight: 600;
+        color: #ffffff !important;
+        padding-bottom: 30px;
+
+    }
+    .information-secondary{
+        background-color: $back-color;
+    }
+    .information-secondary, .information-color{
+        .information-municipality-title{
+            font-size: 32px;
+            font-family: Lora;
+            font-weight: bold;
+        }
+        &.esv, &.es{
+            .information-value-secondary, .information-main-name, .information-title{
+                color: $pnud-color !important;
+            }
+        }
+        /* Ahuachapán Norte, Centro, Sur */
+        &.ah {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $ah-color !important;
+            }
+        }
+        
+        /* San Salvador Norte, Oeste, Este, Centro, Sur */
+        &.ss {
+            .information-value-secondary, .information-main-name, .information-title{
+                color: $ss-color !important;
+            }
+        }
+        
+        /* La Libertad Norte, Centro, Oeste, Este, Costa, Sur */
+        &.ll {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $ll-color !important;
+            }
+        }
+        
+        /* Chalatenango Norte, Centro, Sur */
+        &.ch {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $ch-color !important;
+            }
+        }
+        
+        /* Cuscatlán Norte, Sur */
+        &.cs {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $cs-color !important;
+            }
+        }
+        
+        /* Cabañas Este, Oeste */
+        &.cb {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $cb-color !important;
+            }
+        }
+        
+        /* La Paz Oeste, Centro, Este */
+        &.lp {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $lp-color !important;
+            }
+        }
+        
+        /* La Unión Norte, Sur */
+        &.lu {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $lu-color !important;
+            }
+        }
+        
+        /* Usulután Norte, Este, Oeste */
+        &.us {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $us-color !important;
+            }
+        }
+        
+        /* Sonsonate Norte, Centro, Este, Oeste */
+        &.sn {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $sn-color !important;
+            }
+        }
+        
+        /* Santa Ana Norte, Centro, Este, Oeste */
+        &.sa {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $sa-color !important;
+            }
+        }
+        
+        /* San Vicente Norte, Sur */
+        &.sv {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $sv-color !important;
+            }
+        }
+        
+        /* San Miguel Norte, Centro, Oeste */
+        &.sm {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $sm-color !important;
+            }
+        }
+        
+        /* Morazán Norte, Sur */
+        &.mz {
+            .information-value-secondary, .information-main-name, .information-title {
+                color: $mz-color !important;
+            }
+        }
+        
+    }
+}

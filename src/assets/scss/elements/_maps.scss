@@ -1,0 +1,120 @@
+.examples__block__map__tooltip{
+    position:fixed;
+    width:220px;
+    padding:10px;
+    border:1px solid #9d9ea2;
+    background-color:#ffffff;
+    font-family: Sora;
+    font-weight: 500;
+    color: $pnud-color;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.svg-map-new {
+    width: 80%;
+    height: auto;
+    stroke: #ffffff;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round; 
+  }
+
+.svg-map__location {
+    cursor: pointer; 
+}
+.svg-map__location:focus, .svg-map__location:hover {
+    // fill: #010a1c;
+    // outline: 0; 
+    // stroke: black;
+    // z-index: 100; 
+}
+
+// .svg-map__location:focus,
+// .svg-map__location:hover {
+//     transform: scale(1.2);  /* Aumenta el tamaño en un 20% */
+//     position: relative;     /* Asegura que z-index funcione */
+//     z-index: 10;            /* Trae el elemento al frente */
+//     stroke: black;        /* Cambia el color del borde */
+//     // transition: transform 0.3s ease, stroke 0.3s ease;  /* Añade transiciones suaves */
+// }
+.svg-map__location:focus,
+.svg-map__location:hover {
+    // stroke: black;  /* Borde negro */
+    // stroke-width: 4;  /* Aumenta el grosor del borde */
+    // fill: none;  /* Sin relleno para que no se vea por encima del original */
+    // pointer-events: none;  /* Ignora eventos de mouse en este elemento */
+}
+.svg-map__location[aria-checked="true"] {
+    fill: #9d9ea2; 
+}
+
+/* Ahuachapán Norte, Centro, Sur */
+.ah {
+    fill: $ah-color;
+}
+
+/* San Salvador Norte, Oeste, Este, Centro, Sur */
+.ss {
+    fill: $ss-color;
+}
+
+/* La Libertad Norte, Centro, Oeste, Este, Costa, Sur */
+.ll {
+    fill: $ll-color;
+}
+
+/* Chalatenango Norte, Centro, Sur */
+.ch {
+    fill: $ch-color;
+}
+
+/* Cuscatlán Norte, Sur */
+.cs {
+    fill: $cs-color;
+}
+
+/* Cabañas Este, Oeste */
+.cb {
+    fill: $cb-color;
+}
+
+/* La Paz Oeste, Centro, Este */
+.lp {
+    fill: $lp-color;
+}
+
+/* La Unión Norte, Sur */
+.lu {
+    fill: $lu-color;
+}
+
+/* Usulután Norte, Este, Oeste */
+.us {
+    fill: $us-color;
+}
+
+/* Sonsonate Norte, Centro, Este, Oeste */
+.sn {
+    fill: $sn-color;
+}
+
+/* Santa Ana Norte, Centro, Este, Oeste */
+.sa {
+    fill: $sa-color;
+}
+
+/* San Vicente Norte, Sur */
+.sv {
+    fill: $sv-color;
+}
+
+/* San Miguel Norte, Centro, Oeste */
+.sm {
+    fill: $sm-color;
+}
+
+/* Morazán Norte, Sur */
+.mz {
+    fill: $mz-color;
+}

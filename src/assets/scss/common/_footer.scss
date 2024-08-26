@@ -1,0 +1,11 @@
+.custom-footer {
+    background-color: #FFFFFF;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .footer-image {
+    width: 100%;
+    height: auto; /* La altura se ajusta automáticamente manteniendo la proporción */
+    display: block; /* Elimina cualquier espacio en blanco bajo la imagen */
+  }

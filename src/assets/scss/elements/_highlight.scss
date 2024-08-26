@@ -1,0 +1,212 @@
+.custom-row {
+    .highlight-image-col{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Opcional: para centrar verticalmente */
+        .highlight-image{
+            max-width: 700px;
+        }
+    }
+    .highlight-title{
+        font-size: 24px;
+        font-family: Roboto;
+        padding-bottom: 40px;
+    }
+    .highlight-value, .highlight-value-secondary, .highlight-main-name{
+        font-size: 44px;
+        font-family: Sora;
+        font-weight: 600;
+        color: #ffffff !important;
+        padding-bottom: 30px;
+
+    }
+    .highlight1{
+        &.esv, &.es{
+            background-color: $pnud-color;
+        }
+        /* Ahuachapán Norte, Centro, Sur */
+        &.ah {
+            background-color: $ah-color;
+        }
+        
+        /* San Salvador Norte, Oeste, Este, Centro, Sur */
+        &.ss {
+            background-color: $ss-color;
+        }
+        
+        /* La Libertad Norte, Centro, Oeste, Este, Costa, Sur */
+        &.ll {
+            background-color: $ll-color;
+        }
+        
+        /* Chalatenango Norte, Centro, Sur */
+        &.ch {
+            background-color: $ch-color;
+        }
+        
+        /* Cuscatlán Norte, Sur */
+        &.cs {
+            background-color: $cs-color;
+        }
+        
+        /* Cabañas Este, Oeste */
+        &.cb {
+            background-color: $cb-color;
+        }
+        
+        /* La Paz Oeste, Centro, Este */
+        &.lp {
+            background-color: $lp-color;
+        }
+        
+        /* La Unión Norte, Sur */
+        &.lu {
+            background-color: $lu-color;
+        }
+        
+        /* Usulután Norte, Este, Oeste */
+        &.us {
+            background-color: $us-color;
+        }
+        
+        /* Sonsonate Norte, Centro, Este, Oeste */
+        &.sn {
+            background-color: $sn-color;
+        }
+        
+        /* Santa Ana Norte, Centro, Este, Oeste */
+        &.sa {
+            background-color: $sa-color;
+        }
+        
+        /* San Vicente Norte, Sur */
+        &.sv {
+            background-color: $sv-color;
+        }
+        
+        /* San Miguel Norte, Centro, Oeste */
+        &.sm {
+            background-color: $sm-color;
+        }
+        
+        /* Morazán Norte, Sur */
+        &.mz {
+            background-color: $mz-color;
+        }
+        
+        
+    }
+    .highlight-secondary{
+        background-color: $back-color;
+    }
+    .highlight-secondary, .highlight-color{
+        .highlight-municipality-title{
+            font-size: 40px;
+            font-family: Lora;
+            font-weight: bold;
+        }
+        &.esv, &.es{
+            .highlight-value-secondary, .highlight-main-name{
+                color: $pnud-color !important;
+            }
+        }
+        /* Ahuachapán Norte, Centro, Sur */
+        &.ah {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $ah-color !important;
+            }
+        }
+        
+        /* San Salvador Norte, Oeste, Este, Centro, Sur */
+        &.ss {
+            .highlight-value-secondary, .highlight-main-name{
+                color: $ss-color !important;
+            }
+        }
+        
+        /* La Libertad Norte, Centro, Oeste, Este, Costa, Sur */
+        &.ll {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $ll-color !important;
+            }
+        }
+        
+        /* Chalatenango Norte, Centro, Sur */
+        &.ch {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $ch-color !important;
+            }
+        }
+        
+        /* Cuscatlán Norte, Sur */
+        &.cs {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $cs-color !important;
+            }
+        }
+        
+        /* Cabañas Este, Oeste */
+        &.cb {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $cb-color !important;
+            }
+        }
+        
+        /* La Paz Oeste, Centro, Este */
+        &.lp {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $lp-color !important;
+            }
+        }
+        
+        /* La Unión Norte, Sur */
+        &.lu {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $lu-color !important;
+            }
+        }
+        
+        /* Usulután Norte, Este, Oeste */
+        &.us {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $us-color !important;
+            }
+        }
+        
+        /* Sonsonate Norte, Centro, Este, Oeste */
+        &.sn {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $sn-color !important;
+            }
+        }
+        
+        /* Santa Ana Norte, Centro, Este, Oeste */
+        &.sa {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $sa-color !important;
+            }
+        }
+        
+        /* San Vicente Norte, Sur */
+        &.sv {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $sv-color !important;
+            }
+        }
+        
+        /* San Miguel Norte, Centro, Oeste */
+        &.sm {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $sm-color !important;
+            }
+        }
+        
+        /* Morazán Norte, Sur */
+        &.mz {
+            .highlight-value-secondary, .highlight-main-name {
+                color: $mz-color !important;
+            }
+        }
+        
+    }
+}
