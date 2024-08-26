@@ -1,4 +1,4 @@
-# Trydo-vue-template
+# Web-Map-Page
 
 ## Project setup
 
